@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: #111;
+    color: #8c059f;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-bottom: 3px solid #8c059f;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #8c059f;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: linear-gradient(135deg, #8c059f, #111);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #8c059f;
+    box-shadow: 0 0 15px #8c059f;
+}
+
+/* Event Details */
+#detalles, #contacto {
+    padding: 2rem;
+    text-align: center;
+    background: #111;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 5px;
+    border: 2px solid #8c059f;
+    box-shadow: 0 4px 10px rgba(140, 5, 159, 0.4);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #8c059f;
+    font-weight: 700;
+}
+
+p {
+    color: #ccc;
+}
+
+a {
+    color: #8c059f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #111
